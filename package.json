@@ -1,0 +1,16 @@
+{
+  "name": "actions-test",
+  "version": "1.0.0",
+  "description": "Testing the deployment of a webhook for Google Actions to custom server",
+  "main": "index.js",
+  "author": "Matteo Bertozzo",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "actions-on-google": "^2.4.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  }
+}
